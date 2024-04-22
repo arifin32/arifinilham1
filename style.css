@@ -1,0 +1,78 @@
+* {
+margin: 0%;
+padding: 0%;
+}
+
+html {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.contrainer{
+max-width: 500px;
+margin: 0 auto;
+height: 100vh;
+background-image: url(linktree.gif);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.profile{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 20px;
+}
+
+
+.profile>img {
+width: 150px;
+height: 150px;
+border: 1px solid rgb(8, 0, 255);
+border-radius: 100%;
+}
+
+.profile>p {
+    font-size: 2.0em;
+    font-weight: 999;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+.link{
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 20px;
+}
+
+.link>a{
+text-decoration: none;
+color: white;
+font-size: 40px;
+text-align: center;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 15px;
+margin: 5px 10px;
+padding: 10px;
+text-transform: uppercase;
+font-weight: 500;
+letter-spacing: 3px;
+}
+
+.link>a:hover {
+background-color: rgba(0, 255, 229, 0.28);
+}
+.footer{
+text-align: center;
+}   
+
+.footer>i{
+color: white;
+font-size: 30px;
+letter-spacing: 5px;
+}
